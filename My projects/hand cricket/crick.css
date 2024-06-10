@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+.container
+{
+    height: 30vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 1.5vmin;
+}
+.game
+{
+    height: 30vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.box
+{
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4) ;
+    font-size: 8vmin;
+    color: #b041b0;
+    background-color: beige;
+}
+.box:hover
+{
+    cursor: pointer;
+    background-color: grey;
+}
+
+#msg
+{
+    color: rgb(160, 95, 126);
+    /* background-color: beige; */
+    /* width: 20px; */
+    text-align: center;
+    font-size: 8vmin;
+}
+.msg-container
+{
+    height: 30vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    /* display: none; */
+}
+.score-board
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+
+    
+}
+.score
+{
+    text-indent: 60px;
+    padding-bottom: 50px;
+}
+.turn
+{
+    height: 50px;
+    width: 100px;
+    background-color: pink
+    
+}
